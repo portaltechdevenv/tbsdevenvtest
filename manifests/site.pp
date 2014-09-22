@@ -90,7 +90,6 @@ node default {
   }
   
   # custom includes
-  include chrome::dev
-  include java
-  include chrome
+
+
 }
