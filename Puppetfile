@@ -60,9 +60,4 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-class chrome::dev {
-  package { 'Chrome Dev':
-    provider => 'appdmg',
-    source   => 'https://dl.google.com/chrome/mac/dev/GoogleChrome.dmg',
-  }
-}
+github "java",          "1.7.0"
