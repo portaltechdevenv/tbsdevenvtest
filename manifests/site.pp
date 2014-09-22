@@ -97,6 +97,6 @@ node default {
   include java
   include mysql
   include skype
-  include eclipse
+  include eclipse::java
   include chrome
 }
