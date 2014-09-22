@@ -91,5 +91,8 @@ node default {
   
   # custom includes
   include java
+  include skype
+  include eclipse
+  include chrome
 
 }
