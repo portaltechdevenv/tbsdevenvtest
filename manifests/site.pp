@@ -90,6 +90,6 @@ node default {
   }
   
   # custom includes
-
+  include java
 
 }
