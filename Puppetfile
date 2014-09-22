@@ -61,3 +61,6 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "java",          "1.7.0"
+github "skype"
+github "eclipse"
+github "chrome"
