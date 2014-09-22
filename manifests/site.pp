@@ -89,6 +89,10 @@ node default {
     target => $boxen::config::repodir
   }
   
+  class { 'eclipse::java':
+  version => 'SR2'
+}
+  
   # custom includes
   include java
   include mysql
