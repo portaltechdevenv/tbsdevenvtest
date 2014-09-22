@@ -57,11 +57,19 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
+
+
+# Custom classes
+class { 'eclipse::java':
+  version => 'SR2'
+}
+
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
 github "java",          "1.7.0"
 github "skype",         "1.0.9"
 github "mysql",         "1.99.15"
-github "eclipse",       "2.4.1"
+github "eclipse-java",  "2.4.1"
 github "chrome",        "1.2.0"
