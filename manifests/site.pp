@@ -88,4 +88,9 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+  
+  # custom includes
+  include chrome::dev
+  include java
+  include chrome
 }
