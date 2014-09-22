@@ -59,12 +59,6 @@ github "xquartz",     "1.1.1"
 
 
 
-# Custom classes
-class { 'eclipse::java':
-  version => 'SR2'
-}
-
-
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
