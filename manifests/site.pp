@@ -91,5 +91,8 @@ node default {
   
   # custom includes
   include java
+  include mysql
   include skype
+  include eclipse
+  include chrome
 }
